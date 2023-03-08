@@ -1,0 +1,23 @@
+{
+  "about.qmd": {
+    "about.html": "bdd5bb84"
+  },
+  "index.qmd": {
+    "index.html": "6d958a69"
+  },
+  "nat-gas.qmd": {
+    "nat-gas.html": "ba21db36"
+  },
+  "classes.qmd": {
+    "classes.html": "04ae846a"
+  },
+  "projects.qmd": {
+    "projects.html": "3b09e8da"
+  },
+  "publications.qmd": {
+    "publications.html": "3f4cca7a"
+  },
+  "my_projects.qmd": {
+    "my_projects.html": "6fffa597"
+  }
+}

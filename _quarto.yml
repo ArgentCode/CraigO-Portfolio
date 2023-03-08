@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Craig Orman"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - publications.qmd
+      - my_projects.qmd
+      - classes.qmd
+
+format:
+  html:
+    theme: Quartz
+    css: styles.css
+    toc: true
+
+editor: visual
+

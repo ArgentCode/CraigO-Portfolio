@@ -1,0 +1,29 @@
+---
+title: "Classes"
+---
+
+A list of classes I feel were particularly interesting!
+
+## Certifications
+
+AWS Cloud Practitioner
+
+## Data Science
+
+Data Science 201
+
+## Computer Science
+
+Computer Science 227
+
+Computer Science 311
+
+Computer Science 511
+
+## Statistics
+
+Statistics 347
+
+Statistics 477
+
+Statistics 588

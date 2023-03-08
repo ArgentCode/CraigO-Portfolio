@@ -1,0 +1,9 @@
+---
+title: "projects"
+listing:
+  contents:
+    - nat-gas.qmd
+---
+
+Here are some projects! 
+
