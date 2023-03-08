@@ -10,20 +10,30 @@ AWS Cloud Practitioner
 
 ## Data Science
 
-Data Science 201
+#### Data Science 201: Introduction to Data Science
+Basics and introduction to a variety of methods of modeling in Python. Included linear and multi-linear regressions, logistic regression, basic supervised learning with random forests and decision trees, as well as k-means clustering and a brief introduction into unsupervised learning. Model metrics and comparisons, as well as basic statistical concepts were taught.
 
 ## Computer Science
 
-Computer Science 227
+#### Computer Science 227: Introduction to Object Oriented Programming
+Introduction to the basics of both Java and Object Oriented Programming as a whole. Focus on abstraction, encapsulation, and an early introduction to commonly used algorithms.
 
-Computer Science 311
+#### Computer Science 228: Introduction to Data Structures
+Covers all of the usual data structures in programming, lists, arrayLists, doubly linked lists, trees, binary trees, hashmaps, stacks, queues, and many more! Class taught in Java
 
-Computer Science 511
+#### Computer Science 311: Introduction to Design and Analysis of Algorithms
+Introduction to graph algorithms such as minimum spanning trees, dyanmic programming, runtime analysis and proof of correctness for written algorithms.
+
+#### Computer Science 511: Design and Analysis of Algorithms
+A look at advanced algorithms and handling of P and NP problems. A focus on the Bellman-Ford Method of handling flow networks, conversion between NP Problems and proofs concerning NP completeness, and estimation and heuristic approximations to NP problems.
 
 ## Statistics
 
-Statistics 347
+#### Statistics 347: Probability and Theory for Data Science
+Theoretical statistics, introduction to a variety of distributions such as binomial, geometric, poisson, normal, gamma, and beta. A variety proofs concerning those distributions in their moment generating functions, expected values and more. Also featured an introduction to point estimators, confidence intervals, and hypothesis testing. Heavy focus on use of R and statistical simulation.
 
-Statistics 477
+#### Statistics 477: Introduction to categorical variables
+Introduction to the handling of categorical variables including hypothesis testing, confidence intervals, sampling sizes, tests of independence. Emphasis on visualization as well as numerical summaries. Heavy focus on use of R and statistical simulation.
 
-Statistics 588
+#### Statistics 588: Statistical Theory for Research Workers
+An advanced and more applied look at distributions with a heavier focus on their applications in research. A variety of new distributions were taught, and an emphasis on learning when and how to model real world data using the distributions in class. R was used for simulations

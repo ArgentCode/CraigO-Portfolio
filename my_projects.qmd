@@ -1,9 +1,8 @@
 ---
-title: "projects"
+title: "Projects"
 listing:
   contents:
     - nat-gas.qmd
 ---
 
-Here are some projects! 
-
+Here are some projects!
