@@ -2,6 +2,7 @@
 title: "About me"
 about: 
   template: jolla
+  image: headshot.jpg
   links:
     - icon: linkedin
       text: Linkedin
@@ -11,4 +12,6 @@ about:
       href: https://github.com/ArgentCode
 ---
 
-My name is Craig Orman, and I am a Junior in the Data Science Program at Iowa State University! When I am not studying or playing with data, I like to read, go hiking, and spend time with my lovely wife Carissa. 
+My name is Craig Orman, and I am a Junior in the Data Science Program at Iowa State University! When I am not studying or playing with data, I like to read, go hiking, and spend time with my lovely wife Carissa.
+
+My current objectives are to start a family, expand my volunteering in my community, and to get accepted into a Statistics PhD program! I love to learn about anything statistics related, but in particular I enjoy financial related data. Housing prices, stock predictions, GDP forecasting, and risk assessments all come to mind. I am excited to not only learn about new models and methods to make predicitions, someday I hope to be able to make my own prediction models that are used in industry.
