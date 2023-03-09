@@ -5,19 +5,25 @@ title: "Natural Gas Price Predicition"
 For my DS 201 final project in 2021, I did an ANOVA time series prediction on the price of natural gas in the US using Python and Jupyter Notebooks. Data is collected from the [U.S. Energy information Administration](https://www.eia.gov/naturalgas/data.php)
 
 The price of Natural Gas is highly seasonal, and is very dependent on political and environmental effects.There is significant variability even over the course of a year, and between 2000 and 2010, there was a significant change in the baseline price. In about 2008 there was a significant outlier in the price of natural gas. Since 2008, the variability of the price of natural gas has increased, but the mean price from an initial guess is fairly constant. Below is a time chart of the price of natural gas, data points were monthly.
+
 ![Natural Gas Prices](../myProjects/Images/Nat-Gas-price-plot.png)
 
 The first and most obvious idea I had to try and capture seasonality was to track monthly change in price. The price of natural gas goes up, and is more volatile in the summer months. 
+
 ![Natural Gas Monthly Variability](../myProjects/Images/nat-gas-monthly-variability.png)
 
 Now to try a new modelling method I had never attempted before, I tried to fit an ANOVA model, this required me to check if the data was stationary, and if it had significant correlation. In the chart below, if the lines go outside the blue shaded zone, it fails the correlation test. You can see that in this data, the data didn't pass very comfortably, which means I would need to do some transformations of the data to ensure the ANOVA fit goes correctly. For the purposes of the class, I decided to press anyways. In the future, significant data manipulation would be required.
+
 ![Natural Gas Monthly Variability](../myProjects/Images/nat-gas-correlation.png)
 
 To fit the model, I used all the data up until 2021-02 for training, and all the other data as test data. I used the statsmodels.tsa.holtwinters package to fit the ANOVA model, and it produced the following chart that shows the breakdown of our data. The ANOVA equation is simply put (Price = Trend + Seasonal + Residual). 
+
 ![Natural Gas Monthly Variability](../myProjects/Images/nat-gas-charts.png)
 
 I compared the modeling predictions against the test data, and we can see that the residual model is quite close to the actual price. The $R^2$ value is 0.925. So our model did surprisingly well considering we only used time data to predict it! There are many variables related to the price, and we didn't consider most of them.
+
 ![Natural Gas Test Predictions](../myProjects/Images/nat-gas-measure.png)
 
 Finally, we make a prediction of the (at the time) future! 
+
 ![Natural Gas Future Predictions](../myProjects/Images/nat-gas-predict.png)

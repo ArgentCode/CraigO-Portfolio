@@ -1,6 +1,9 @@
 ---
 title: "Publications"
-editor: visual
 ---
 
-While an Undergraduate Research Assistant at the Center for Statistical Analysis of Forensic Evidence, I worked for \[Dr. Heike Hofmann\](https://faculty.sites.iastate.edu/hofmann/) to make an application that evaluates the quality of a given bullet scan to see if it will be adequate for striation comparison to another bullet. The intention of said comparison is to see if the bullets can reasonably be determined to have been fired from the same barrel.
+While an Undergraduate Research Assistant at the Center for Statistical Analysis of Forensic Evidence, I worked for [Dr. Heike Hofmann](https://faculty.sites.iastate.edu/hofmann/) with my teammate Naga Vempati to make an application that evaluates the quality of a given bullet scan to see if it will be adequate for striation comparison to another bullet. The intention of said comparison is to see if the bullets can reasonably be determined to have been fired from the same barrel.
+
+Many of the images such as the one below suffer from a variety of problems, namely holes and feathering. The app is a random forest model that uses seven features to predict the quality of the a scan. The particular problem of the image is also assesed. Five random forests, one for each tracked kind of problem, and lack thereof, each doing a binary comparison to detect if its particular problem is present. The max problem score is selected as the particular problem.
+
+![Bullet Striation with Missing Sections](./Publications/Images/FAU263_BC_L3.png)
