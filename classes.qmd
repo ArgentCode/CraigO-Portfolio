@@ -25,7 +25,7 @@ Covers all of the usual data structures in programming, lists, arrayLists, doubl
 Introduction to graph algorithms such as minimum spanning trees, dyanmic programming, runtime analysis and proof of correctness for written algorithms.
 
 #### Computer Science 511: Design and Analysis of Algorithms
-A look at advanced algorithms and handling of P and NP problems. A focus on the Bellman-Ford Method of handling flow networks, conversion between NP Problems and proofs concerning NP completeness, and estimation and heuristic approximations to NP problems.
+Graduate level class that looks at advanced algorithms and handling of P and NP problems. A focus on the Bellman-Ford Method of handling flow networks, conversion between NP Problems and proofs concerning NP completeness, and estimation and heuristic approximations to NP problems.
 
 ## Statistics
 
@@ -36,4 +36,4 @@ Theoretical statistics, introduction to a variety of distributions such as binom
 Introduction to the handling of categorical variables including hypothesis testing, confidence intervals, sampling sizes, tests of independence. Emphasis on visualization as well as numerical summaries. Heavy focus on use of R and statistical simulation.
 
 #### Statistics 588: Statistical Theory for Research Workers
-An advanced and more applied look at distributions with a heavier focus on their applications in research. A variety of new distributions were taught, and an emphasis on learning when and how to model real world data using the distributions in class. R was used for simulations
+Graduae level class that gives a more advanced and applied look at distributions with a heavier focus on their applications in research. A variety of new distributions were taught, and an emphasis on learning when and how to model real world data using the distributions in class. R was used for simulations
