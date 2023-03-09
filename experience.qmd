@@ -3,52 +3,59 @@ title: "Experience"
 ---
 
 #### Undergraduate Research Assistant
+
 August 2022 - Present, Center for Statistical and Forensic Evidence, Ames, IA
 
-* Refined previous machine learning models to improve metrics and consistency
-* Reviewed operating policies to ensure statistics included were rigorous and accurate
-* Created dashboards and web apps to make machine learning more accessible
+-   Refined previous machine learning models to improve metrics and consistency
+-   Reviewed operating policies to ensure statistics included were rigorous and accurate
+-   Created dashboards and web apps to make machine learning more accessible
 
 #### Machine Learning Engineering Intern
+
 May 2022 - August 2022, Principal Financial Group, Des Moines, IA
 
-* Developed extensively with AWS Sagemaker, S3, native Sagemaker models, and SKLearn models to train, tune, and test a variety of binary classification models
-* Presented and endorsed XGBoost model to business partners throughout the enterprise
-* Researched and developed autonomous ML pipelines to ensure that batch predictions were delivered securely and efficiently on a routine basis
+-   Developed extensively with AWS Sagemaker, S3, native Sagemaker models, and SKLearn models to train, tune, and test a variety of binary classification models
+-   Presented and endorsed XGBoost model to business partners throughout the enterprise
+-   Researched and developed autonomous ML pipelines to ensure that batch predictions were delivered securely and efficiently on a routine basis
 
 #### Software Engineering Intern
+
 May 2021 - August 2021, Principal Financial Group, Des Moines, IA
 
-* Deployed applications and set up automated jobs using Jenkins
-* Developed a data pipeline on AWS from web apps using Kinesis and Elastic Server
-* Led a team to create a Django website for recruiting employees in a 40-hour hackathon
-
+-   Deployed applications and set up automated jobs using Jenkins
+-   Developed a data pipeline on AWS from web apps using Kinesis and Elastic Server
+-   Led a team to create a Django website for recruiting employees in a 40-hour hackathon
 
 #### Web Developer Intern
+
 January 2021 - May 2021, eFuneral Solutions, Ames, IA
 
-* Created automated email systems with Elastic Email services in C#
-* Resolved Jira tickets concerning Stripe, SalesForce, and AWS logging issues
+-   Created automated email systems with Elastic Email services in C#
+-   Resolved Jira tickets concerning Stripe, SalesForce, and AWS logging issues
 
 #### Security Officer
+
 June 2020 - Present, Defense Contracting Activities, Ames IA
 
-* Secured a federal facility ensuring all personnel who entered had proper authorization
+-   Secured a federal facility ensuring all personnel who entered had proper authorization
 
 #### Section Supervisor
+
 August 2019 - May 2020, US Marine Corps, Jacksonville, NC
 
-* Supervised, trained, and mentored 14 employees, coordinating different sections and acting as a subject matter expert to higher staff and managers
-* Self-taught online Oracle Applications supply system, ordering over $10,000 worth of parts and handling all modifications and upgrades needed for systems
+-   Supervised, trained, and mentored 14 employees, coordinating different sections and acting as a subject matter expert to higher staff and managers
+-   Self-taught online Oracle Applications supply system, ordering over \$10,000 worth of parts and handling all modifications and upgrades needed for systems
 
 #### Team Leader
+
 March 2017 - August 2019, US Marine Corps, Jacksonville, NC
 
-* Led a team of nine employees to complete a variety of objectives in two countries
-* Led experimental operations to develop policies and SOP's for newly introduced technologies
+-   Led a team of nine employees to complete a variety of objectives in two countries
+-   Led experimental operations to develop policies and SOP's for newly introduced technologies
 
 #### Radio Operator
+
 June 2015 - March 2017, US Marine Corps, Jacksonville, NC
 
-* Maintained over 200 secure radio keys and $400,000 worth of classified equipment with 100% accountability.
-* Had to develop creative new antennas to overcome rapidly changing terrain conditions.
+-   Maintained over 200 secure radio keys and \$400,000 worth of classified equipment with 100% accountability.
+-   Had to develop creative new antennas to overcome rapidly changing terrain conditions.

@@ -19,6 +19,3 @@ format:
     theme: Mint
     css: styles.css
     toc: true
-
-editor: visual
-
