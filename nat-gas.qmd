@@ -1,5 +1,0 @@
----
-title: "Natural Gas Price Predicition"
----
-
-This will be natural gas project!

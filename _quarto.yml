@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: Quartz
+    theme: Mint
     css: styles.css
     toc: true
 

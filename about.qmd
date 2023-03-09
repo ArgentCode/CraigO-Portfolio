@@ -1,6 +1,5 @@
 ---
 title: "About me"
-author: Craig Orman
 about: 
   template: jolla
   links:
@@ -20,7 +19,7 @@ My name is Craig Orman, and I am a Junior in the Data Science Program at Iowa St
 August 2022 - Present, Center for Statistical and Forensic Evidence, Ames, IA
 
 #### Machine Learning Engineer Intern
-May 2022 - August, 2022 Principal Financial Group, Des Moines, IA
+May 2022 - August 2022, Principal Financial Group, Des Moines, IA
 
 #### Software Engineering Intern
 May 2021 - August 2021, Principal Financial Group, Des Moines, IA

@@ -1,0 +1,5 @@
+---
+title: "PFG 401k Rollover Project"
+---
+
+During my 2022 Summer internship with [Principal Financial Group](https://www.principal.com/), I was assigned a data science project along with [William Edwards](https://www.linkedin.com/in/william-edwards-37738574/) to try and predict if Principal customers would be willing to do a roll-in of their non-local money.

@@ -1,0 +1,5 @@
+---
+title: "Natural Gas Price Predicition"
+---
+
+For my DS 201 final project, I did an ANOVA time series prediction on the price of natural gas in the US using Jupyter Notebooks.
