@@ -6,7 +6,7 @@ A list of classes I feel were particularly interesting!
 
 ## Certifications
 
-AWS Cloud Practitioner
+![AWS Cloud Practitioner Badge](./aws-certified-cloud-practitioner.png) [AWS Cloud Practitioner](https://www.credly.com/badges/9b82447e-70f1-4d09-a99c-b44662639056/public_url)
 
 ## Data Science
 

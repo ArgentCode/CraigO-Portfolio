@@ -129,7 +129,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>During my 2022 Summer internship with <a href="https://www.principal.com/">Principal Financial Group</a>, I was assigned a data science project along with <a href="https://www.linkedin.com/in/william-edwards-37738574/">William Edwards</a> to try and predict if Principal customers would be willing to do a roll-in of their non-local money.</p>
+<p>During my 2022 Summer internship with <a href="https://www.principal.com/">Principal Financial Group</a>, I was assigned a data science project along with <a href="https://www.linkedin.com/in/william-edwards-37738574/">William Edwards</a> to try and predict if Principal customers would be willing to do a roll-in of their non-local retirement savings.</p>
+<p>All data and products were stored on the Principal servers, so unfortunately I can’t share too much about it. The project involved a variety of factors including numerical and categorical. Extensive data cleaning was required, much of it involved contacting other parties and verifying what was a reasonable boundary for a particular feature, and then excluding any rows in the data that were outside of the boundaries.</p>
+<p>We fit approximate ten different models and compared them all to see which gave us the best AUC and F1score. The model was a prototype, so more specific hyper parameter tuning was left to be decided by the particular client it went to. If the mass-email team got a version, they would want higher recall, or in other words, its better to send more emails and bother people than it is to send less emails and miss potential customers. However if the model was given to the call center, the opposite would be true, you would tune for percision, or in other words its better to miss out on potential clients, as long as the ones we are calling are sure bets. Our base model attempted to find the happy medium using the F1score.</p>
+<p>The model used several hundred thousand rows of data and about 80 columns worth features. We used an <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost.html">XGBoost</a> model on AWS Sagemaker.</p>
 
 
 
