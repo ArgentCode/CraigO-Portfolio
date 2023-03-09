@@ -2,8 +2,8 @@
   {
     "listing": "/my_projects.html",
     "items": [
-      "/nat-gas.html",
-      "/401k-rollover.html"
+      "/myProjects/nat-gas.html",
+      "/myProjects/401k-rollover.html"
     ]
   }
 ]

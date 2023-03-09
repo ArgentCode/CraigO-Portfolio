@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "401k-rollover.html",
-    "href": "401k-rollover.html",
-    "title": "PFG 401k Rollover Project",
-    "section": "",
-    "text": "During my 2022 Summer internship with Principal Financial Group, I was assigned a data science project along with William Edwards to try and predict if Principal customers would be willing to do a roll-in of their non-local money."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
@@ -63,18 +56,25 @@
     "text": "1 + 1 \n\n[1] 2"
   },
   {
+    "objectID": "myProjects/401k-rollover.html",
+    "href": "myProjects/401k-rollover.html",
+    "title": "PFG 401k Rollover Project",
+    "section": "",
+    "text": "During my 2022 Summer internship with Principal Financial Group, I was assigned a data science project along with William Edwards to try and predict if Principal customers would be willing to do a roll-in of their non-local money."
+  },
+  {
+    "objectID": "myProjects/nat-gas.html",
+    "href": "myProjects/nat-gas.html",
+    "title": "Natural Gas Price Predicition",
+    "section": "",
+    "text": "For my DS 201 final project, I did an ANOVA time series prediction on the price of natural gas in the US using Jupyter Notebooks."
+  },
+  {
     "objectID": "my_projects.html",
     "href": "my_projects.html",
     "title": "Projects",
     "section": "",
     "text": "Natural Gas Price Predicition\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nPFG 401k Rollover Project\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "nat-gas.html",
-    "href": "nat-gas.html",
-    "title": "Natural Gas Price Predicition",
-    "section": "",
-    "text": "For my DS 201 final project, I did an ANOVA time series prediction on the price of natural gas in the US using Jupyter Notebooks."
   },
   {
     "objectID": "publications.html",
