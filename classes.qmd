@@ -19,10 +19,10 @@ Basics and introduction to a variety of methods of modeling in Python. Included 
 Introduction to the basics of both Java and Object Oriented Programming as a whole. Focus on abstraction, encapsulation, and an early introduction to commonly used algorithms.
 
 #### Computer Science 228: Introduction to Data Structures
-Covers all of the usual data structures in programming, lists, arrayLists, doubly linked lists, trees, binary trees, hashmaps, stacks, queues, and many more! Class taught in Java
+Covers all of the usual data structures in programming, lists, arrayLists, doubly linked lists, trees, binary trees, hashmaps, stacks, queues, and many more! Class taught in Java.
 
 #### Computer Science 311: Introduction to Design and Analysis of Algorithms
-Introduction to graph algorithms such as minimum spanning trees, dyanmic programming, runtime analysis and proof of correctness for written algorithms.
+Introduction to graph algorithms, dyanmic programming, runtime analysis, and proof of correctness for written algorithms. Basic introduction to the concept of P and NP problems. Emphasis on divide and conquer, recursive, and memoization.
 
 #### Computer Science 511: Design and Analysis of Algorithms
 Graduate level class that looks at advanced algorithms and handling of P and NP problems. A focus on the Bellman-Ford Method of handling flow networks, conversion between NP Problems and proofs concerning NP completeness, and estimation and heuristic approximations to NP problems.
