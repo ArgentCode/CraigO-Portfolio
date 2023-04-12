@@ -9,9 +9,12 @@ Personal Portfolio and Resume of Craig Orman, Data Science extraordinaire! Do yo
 ### Research
 With the aid of Dr. Hofmann and Naga Vempati, I am working to develop an RShiny application that uses machine learning to determine if microscopy scans on bullets are of high quality, and can be processed, or if they need to be re-done by the individual doing the scans.
 
+![](./myExperience/Images/csafe-logo.jpg)
+
 ### Upcoming Internship
 Summer 2023 I will be working as a Data Analyst for Betchtel Plant Machinery inc., stay tuned for more information!
 
 ### Classes
 This semester I am taking statistic classes that focus on theoretical distributions, and categorical variable analysis. As well as a programming course that focuss on large NoSQL databases such as Hadoop and Apache Spark
-![Apache Spark Logo](./ApacheSpark.png)
+
+![](./ApacheSpark.png) ![](./logit model.png)
