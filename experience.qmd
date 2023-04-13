@@ -2,42 +2,43 @@
 title: "Experience"
 ---
 
-#### Data Analyst Intern
+#### ![BPMI Logo](./myExperience/Images/BPMI.jpg) Data Analyst Intern
 May 2023 - August 2023, [Bechtel Plant Machinery, Inc.](https://www.bpmionline.com/), Monroeville, PA 
 
 -   Upcoming internship where I will be doing a variety of data analytics in a new environment!
 
-#### ![CSAFE Logo](./myExperience/Images/csafe-logo.jpg)Undergraduate Research Assistant
+#### ![CSAFE Logo](./myExperience/Images/csafe-logo.jpg) Undergraduate Research Assistant
 August 2022 - Present, [Center for Statistical and Forensic Evidence](https://forensicstats.org/), Ames, IA
 
 -   Refined previous machine learning models to improve metrics and consistency
 -   Reviewed operating policies to ensure statistics included were rigorous and accurate
 -   Created dashboards and web apps to make machine learning more accessible
 
-#### ![AWS SageMaker Logo](./myExperience/Images/workb-sagemaker-logo.jpg) Machine Learning Engineering Intern
+#### ![PFG Logo](./myExperience/Images/PFG.jpg) Machine Learning Engineering Intern
 May 2022 - August 2022, [Principal Financial Group](https://www.principal.com/), Des Moines, IA
 
 -   Developed extensively with AWS Sagemaker, S3, native Sagemaker models, and SKLearn models to train, tune, and test a variety of binary classification models
 -   Presented and endorsed XGBoost model to business partners throughout the enterprise
 -   Researched and developed autonomous ML pipelines to ensure that batch predictions were delivered securely and efficiently on a routine basis
 
-#### Software Engineering Intern
+#### ![PFG Logo](./myExperience/Images/PFG.jpg) Software Engineering Intern
 May 2021 - August 2021, [Principal Financial Group](https://www.principal.com/), Des Moines, IA
 
 -   Deployed applications and set up automated jobs using Jenkins
 -   Developed a data pipeline on AWS from web apps using Kinesis and Elastic Server
 -   Led a team to create a Django website for recruiting employees in a 40-hour hackathon
 
-#### Web Developer Intern
+#### ![EFuneral Logo](./myExperience/Images/efuneral-logo.png)Web Developer Intern
 January 2021 - May 2021, [eFuneral Solutions](https://www.efuneral.com/), Ames, IA
 
 -   Created automated email systems with Elastic Email services in C#
 -   Resolved Jira tickets concerning Stripe, SalesForce, and AWS logging issues
 
-#### Security Officer
+#### ![USDA Logo](./myExperience/Images/USDA.png) Security Officer
 June 2020 - Present, [Defense Contracting Activities](https://go-dca.com/), Ames IA
 
--   Secured a federal facility ensuring all personnel who entered had proper authorization
+-   Secured a USDA facility ensuring all personnel who entered had proper authorization
+-   Medical training, CPR and Stop the Bleed certified
 
 #### ![Sergeant Chevron](./myExperience/Images/Sergeant.png) Section Supervisor
 August 2019 - May 2020, [US Marine Corps](https://www.iimef.marines.mil/Units/2nd-Radio-Battalion/), Jacksonville, NC
