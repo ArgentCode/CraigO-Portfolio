@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 ---
-
+ 
 #### ![BPMI Logo](./myExperience/Images/BPMI.jpg) Data Analyst Intern
 May 2023 - August 2023, [Bechtel Plant Machinery, Inc.](https://www.bpmionline.com/), Monroeville, PA 
 
@@ -43,13 +43,11 @@ June 2020 - Present, [Defense Contracting Activities](https://go-dca.com/), Ames
 #### ![Sergeant Chevron](./myExperience/Images/Sergeant.png) Section Supervisor
 August 2019 - May 2020, [US Marine Corps](https://www.iimef.marines.mil/Units/2nd-Radio-Battalion/), Jacksonville, NC
 
-
 -   Supervised, trained, and mentored 14 employees, coordinating different sections and acting as a subject matter expert to higher staff and managers
 -   Self-taught online Oracle Applications supply system, ordering over \$10,000 worth of parts and handling all modifications and upgrades needed for systems
 
 #### ![Corporal Chevron](./myExperience/Images/Corporal.jpg) Team Leader
 March 2017 - August 2019, [US Marine Corps](https://www.22ndmeu.marines.mil/), Jacksonville, NC
-
 
 -   Led a team of nine employees to complete a variety of objectives in two countries
 -   Led experimental operations to develop policies and SOP's for newly introduced technologies
@@ -57,6 +55,10 @@ March 2017 - August 2019, [US Marine Corps](https://www.22ndmeu.marines.mil/), J
 #### ![Lance Corporal Chevron](./myExperience/Images/Lance Chevron.png) Radio Operator
 June 2015 - March 2017, US Marine Corps, Jacksonville, NC
 
-
 -   Maintained over 200 secure radio keys and \$400,000 worth of classified equipment with 100% accountability.
 -   Had to develop creative new antennas to overcome rapidly changing terrain conditions.
+
+
+#### Awards
+Navy Achievment Medal for my time as a team leader on deployment.
+![Navy Achievment Medal](./myExperience/Images/Marines.png) 
