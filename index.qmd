@@ -14,3 +14,5 @@ This year I will be focusing on camera imagery with the Center for Statistics an
 #### Classes
 This semester I am taking Multivariate statistics, advanced linear algebra, and machine learning concepts. A heavy focus on the mathematical basis of data science, with some real world style practice.
 
+#### Graduate School
+This semester I am applying to graduate schools! My objective is to learn more about the internals of machine learning and the surrounding mathematics leading me to someday be able to write new and innovative machine learning and AI algorithms!
