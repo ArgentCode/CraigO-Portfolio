@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Craig Orman - Natural Gas Price Predicition</title>
+<title>Craig Orman - Models</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,11 +60,40 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -72,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Craig Orman</span>
     </a>
   </div>
@@ -83,31 +114,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../experience.html" rel="" target="">
+    <a class="nav-link" href="./experience.html" rel="" target="">
  <span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../my_projects.html" rel="" target="">
+    <a class="nav-link" href="./my_projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html" rel="" target="">
+    <a class="nav-link" href="./publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../classes.html" rel="" target="">
+    <a class="nav-link" href="./classes.html" rel="" target="">
  <span class="menu-text">Classes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Models.html" rel="" target="">
+    <a class="nav-link active" href="./Models.html" rel="" target="" aria-current="page">
  <span class="menu-text">Models</span></a>
   </li>  
 </ul>
@@ -129,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Natural Gas Price Predicition</h1>
+<h1 class="title">Models</h1>
 </div>
 
 
@@ -144,53 +175,39 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>For my DS 201 final project in 2021, I did an ANOVA time series prediction on the price of natural gas in the US using Python and Jupyter Notebooks. Data is collected from the <a href="https://www.eia.gov/naturalgas/data.php">U.S. Energy information Administration</a></p>
-<p>The price of Natural Gas is highly seasonal, and is very dependent on political and environmental effects.There is significant variability even over the course of a year, and between 2000 and 2010, there was a significant change in the baseline price. In about 2008 there was a significant outlier in the price of natural gas. Since 2008, the variability of the price of natural gas has increased, but the mean price from an initial guess is fairly constant. Below is a time chart of the price of natural gas, data points were monthly.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/Nat-Gas-price-plot.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Prices</figcaption>
-</figure>
-</div>
-<p>The first and most obvious idea I had to try and capture seasonality was to track monthly change in price. The price of natural gas goes up, and is more volatile in the summer months.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/nat-gas-monthly-variability.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Monthly Variability</figcaption>
-</figure>
-</div>
-<p>Now to try a new modelling method I had never attempted before, I tried to fit an ANOVA model, this required me to check if the data was stationary, and if it had significant correlation. In the chart below, if the lines go outside the blue shaded zone, it fails the correlation test. You can see that in this data, the data didn’t pass very comfortably, which means I would need to do some transformations of the data to ensure the ANOVA fit goes correctly. For the purposes of the class, I decided to press anyways. In the future, significant data manipulation would be required.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/nat-gas-correlation.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Monthly Variability</figcaption>
-</figure>
-</div>
-<p>To fit the model, I used all the data up until 2021-02 for training, and all the other data as test data. I used the statsmodels.tsa.holtwinters package to fit the ANOVA model, and it produced the following chart that shows the breakdown of our data. The ANOVA equation is simply put (Price = Trend + Seasonal + Residual).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/nat-gas-charts.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Monthly Variability</figcaption>
-</figure>
-</div>
-<p>I compared the modeling predictions against the test data, and we can see that the residual model is quite close to the actual price. The <span class="math inline">\(R^2\)</span> value is 0.925. So our model did surprisingly well considering we only used time data to predict it! There are many variables related to the price, and we didn’t consider most of them.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/nat-gas-measure.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Test Predictions</figcaption>
-</figure>
-</div>
-<p>Finally, we make a prediction of the (at the time) future!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../myProjects/Images/nat-gas-predict.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Natural Gas Future Predictions</figcaption>
-</figure>
-</div>
+<p>This is a running list of models and Data Science techniques that I have practiced and learned. I hope to provide not only examples and code of the techniques, but also the math behind them to allow a better understanding.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1691961479339" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./Models/Linear_Regression.html"> <p class="card-img-top"><img src="Models\Linear_Regression_files\figure-html\unnamed-chunk-1-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./Models/Linear_Regression.html">
+<h3 class="no-anchor listing-title">
+Linear_Regression
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Linear regression is a form of predictive modeling almost everyone has seen in some capacity or another. The general idea is that given a…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./Models/Linear_Regression.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

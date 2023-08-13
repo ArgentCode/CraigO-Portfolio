@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/Models.html",
+    "items": [
+      "/Models/Linear_Regression.html"
+    ]
+  },
+  {
     "listing": "/my_projects.html",
     "items": [
       "/myProjects/nat-gas.html",

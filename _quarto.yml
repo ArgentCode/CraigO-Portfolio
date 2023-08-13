@@ -13,6 +13,7 @@ website:
       - my_projects.qmd
       - publications.qmd
       - classes.qmd
+      - Models.qmd
 
 format:
   html:

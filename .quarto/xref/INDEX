@@ -22,5 +22,11 @@
   },
   "publications.qmd": {
     "publications.html": "df4c0a2e"
+  },
+  "Models.qmd": {
+    "Models.html": "939110d2"
+  },
+  "Models/Linear_Regression.qmd": {
+    "Linear_Regression.html": "50aa8551"
   }
 }

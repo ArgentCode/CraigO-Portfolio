@@ -5,10 +5,15 @@ title: "Experience"
 #### ![BPMI Logo](./myExperience/Images/BPMI.jpg) Data Analyst Intern
 May 2023 - August 2023, [Bechtel Plant Machinery, Inc.](https://www.bpmionline.com/), Monroeville, PA 
 
--   Upcoming internship where I will be doing a variety of data analytics in a new environment!
+- Implemented a custom RoBERTa NLP model to provide a rapid search of business supplier
+documents hosted on a Streamlit application that allowed continuous user based improvement
+- Produced four dynamic Microsoft Power Apps which utilized Power Automate, email triggers, and
+SharePoint connections and consulted with the UX department for design choices
+- Developed validation software using rolling averages, peak detection, and curve fitting for
+physical sensors
 
 #### ![CSAFE Logo](./myExperience/Images/csafe-logo.jpg) Undergraduate Research Assistant
-August 2022 - Present, [Center for Statistical and Forensic Evidence](https://forensicstats.org/), Ames, IA
+August 2022 - Present, [Center for Statistics and Applications in Forensic Evidence](https://forensicstats.org/), Ames, IA
 
 -   Refined previous machine learning models to improve metrics and consistency
 -   Reviewed operating policies to ensure statistics included were rigorous and accurate

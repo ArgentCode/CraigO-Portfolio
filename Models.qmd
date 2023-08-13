@@ -1,0 +1,11 @@
+---
+title: "Models"
+listing:
+  contents:
+    - Linear_Regression.qmd
+    - Logistic_Regression.qmd
+    - Decision_Tree.qmd
+    - Random_Forest.qmd
+---
+
+This is a running list of models and Data Science techniques that I have practiced and learned. I hope to provide not only examples and code of the techniques, but also the math behind them to allow a better understanding.
