@@ -1,5 +1,5 @@
 ---
-title: "Linear_Regression"
+title: "Linear Regression"
 ---
 
 Linear regression is a form of predictive modeling almost everyone has seen in some capacity or another. The general idea is that given a series of data, you assign one of them to be the independent variable (Y) and the dependent variable (X). You try to predict the value of Y given the value of X. Here is an example.

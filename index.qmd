@@ -6,13 +6,11 @@ Personal Portfolio and Resume of Craig Orman, Data Science extraordinaire! Do yo
 
 #### Recent Activities
 
-#### Research
-This year I will be focusing on camera imagery with the Center for Statistics and Applications in Forensic Evidence
-
-![](./myExperience/Images/csafe-logo.jpg)
+#### Upcoming Internship
+This summer (2024) I will be working for John Deere in their finance center in Iowa. I love financial data and am very excited to start my journey with John Deere
 
 #### Classes
-This semester I am taking Multivariate statistics, advanced linear algebra, and machine learning concepts. A heavy focus on the mathematical basis of data science, with some real world style practice.
+This semester I am taking Philosophy, Introduction to Machine Learning with the computer science department, Real Analysis I, and my data science capstone class. I hope to gain an intuition into rigorous proofs, the fundamentals of machine learning, and get some more real world experience under my belt in data science.
 
 #### Graduate School
 This semester I am applying to graduate schools! My objective is to learn more about the internals of machine learning and the surrounding mathematics leading me to someday be able to write new and innovative machine learning and AI algorithms!
