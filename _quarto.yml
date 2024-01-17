@@ -11,9 +11,8 @@ website:
       - about.qmd
       - experience.qmd
       - my_projects.qmd
-      - publications.qmd
+      - research.qmd
       - classes.qmd
-      - Models.qmd
 
 format:
   html:
