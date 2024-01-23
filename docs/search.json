@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Personal Portfolio and Resume of Craig Orman, Data Science extraordinaire! Do you want to be a part of the future of statistics and machine learning? Then join me in my adventure!\n\nRecent Activities\n\n\nResearch\nThis year I will be focusing on camera imagery with the Center for Statistics and Applications in Forensic Evidence\n\n\n\nClasses\nThis semester I am taking Multivariate statistics, advanced linear algebra, and machine learning concepts. A heavy focus on the mathematical basis of data science, with some real world style practice."
+    "text": "Personal Portfolio and Resume of Craig Orman, Data Science extraordinaire! Do you want to be a part of the future of statistics and machine learning? Then join me in my adventure!\n\nRecent Activities\n\n\nUpcoming Internship\nThis summer (2024) I will be working for John Deere in their finance center in Iowa. I love financial data and am very excited to start my journey with John Deere\n\n\nClasses\nThis semester I am taking Philosophy, Introduction to Machine Learning with the computer science department, Real Analysis I, and my data science capstone class. I hope to gain an intuition into rigorous proofs, the fundamentals of machine learning, and get some more real world experience under my belt in data science.\n\n\nGraduate School\nThis semester I am applying to graduate schools! My objective is to learn more about the internals of machine learning and the surrounding mathematics leading me to someday be able to write new and innovative machine learning and AI algorithms!"
   },
   {
     "objectID": "Models/Linear_Regression.html",
@@ -128,6 +128,13 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "While an Undergraduate Research Assistant at the Center for Statistical Analysis of Forensic Evidence, I worked for Dr. Heike Hofmann with my teammate Naga Vempati to make an application in R that evaluates the quality of a given bullet scan to see if it will be adequate for striation comparison to another bullet. The intention of said comparison is to see if the bullets can reasonably be determined to have been fired from the same barrel.\nMany of the images such as the one below suffer from a variety of problems, namely holes and feathering. The app is a random forest model that uses seven features to predict the quality of the a scan. The particular problem of the image is also assesed. Five random forests, one for each tracked kind of problem, and lack thereof, each doing a binary comparison to detect if its particular problem is present. The max problem score is selected as the particular problem.\n\n\n\nBullet Striation with Missing Sections"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
     "title": "Publications",
     "section": "",
     "text": "While an Undergraduate Research Assistant at the Center for Statistical Analysis of Forensic Evidence, I worked for Dr. Heike Hofmann with my teammate Naga Vempati to make an application in R that evaluates the quality of a given bullet scan to see if it will be adequate for striation comparison to another bullet. The intention of said comparison is to see if the bullets can reasonably be determined to have been fired from the same barrel.\nMany of the images such as the one below suffer from a variety of problems, namely holes and feathering. The app is a random forest model that uses seven features to predict the quality of the a scan. The particular problem of the image is also assesed. Five random forests, one for each tracked kind of problem, and lack thereof, each doing a binary comparison to detect if its particular problem is present. The max problem score is selected as the particular problem.\n\n\n\nBullet Striation with Missing Sections"
